@@ -26,7 +26,7 @@ A user-friendly tool to facilitate WiFi debugging connections between Android de
 1. Clone the repository:
 ```bash
 git clone https://github.com/FranzoiDev/Linux-WiFi-ADB.git
-cd Linux-WiFi-ADB
+cd Linux-WiFi-ADB/main
 ```
 
 2. Choose desired language:
