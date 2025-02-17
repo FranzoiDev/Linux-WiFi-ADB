@@ -24,40 +24,43 @@ A user-friendly tool to facilitate WiFi debugging connections between Android de
 
 ## ⚙️ Installation
 1. Clone the repository:
-```bash
-git clone https://github.com/FranzoiDev/Linux-WiFi-ADB.git
-cd Linux-WiFi-ADB/main
-```
+
+  ```bash
+  git clone https://github.com/FranzoiDev/Linux-WiFi-ADB.git
+  cd Linux-WiFi-ADB/main
+  ```
 
 2. Choose desired language:
-```bash
-cd PT-BR # For Portuguese
-# or
-cd EN-US # For English
-```
+
+  ```bash
+  cd PT-BR # For Portuguese
+  # or
+  cd EN-US # For English
+  ```
 
 3. Configure the script:
-```bash
-# Create bin directory if it doesn't exist
-mkdir -p "$HOME/.local/bin"
-# Copy script to bin directory
-cp Linux-WiFi-ADB.sh "$HOME/.local/bin/Linux-WiFi-ADB.sh"
-# Make executable
-chmod +x "$HOME/.local/bin/Linux-WiFi-ADB.sh"
-```
+
+  ```bash
+  # Create bin directory if it doesn't exist
+  mkdir -p "$HOME/.local/bin"
+  # Copy script to bin directory
+  cp Linux-WiFi-ADB.sh "$HOME/.local/bin/Linux-WiFi-ADB.sh"
+  # Make executable
+  chmod +x "$HOME/.local/bin/Linux-WiFi-ADB.sh"
+  ```
 
 4. Add shortcut to your shell:
 
-For Bash:
-```bash
-echo 'alias wifi-adb="$HOME/.local/bin/Linux-WiFi-ADB.sh"' >> ~/.bashrc
-source ~/.bashrc
-```
-For Zsh:
-```bash
-echo 'alias wifi-adb="$HOME/.local/bin/Linux-WiFi-ADB.sh"' >> ~/.zshrc
-source ~/.zshrc
-```
+  For Bash:
+  ```bash
+  echo 'alias wifi-adb="$HOME/.local/bin/Linux-WiFi-ADB.sh"' >> ~/.bashrc
+  source ~/.bashrc
+  ```
+  For Zsh:
+  ```bash
+  echo 'alias wifi-adb="$HOME/.local/bin/Linux-WiFi-ADB.sh"' >> ~/.zshrc
+  source ~/.zshrc
+  ```
 
 ## 🚀 How to Use
 
