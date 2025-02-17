@@ -47,6 +47,7 @@ chmod +x "$HOME/.local/bin/Linux-WiFi-ADB.sh"
 ```
 
 4. Add shortcut to your shell:
+
 For Bash:
 ```bash
 echo 'alias wifi-adb="$HOME/.local/bin/Linux-WiFi-ADB.sh"' >> ~/.bashrc
